@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header_text">Yeeyy ! Finally</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <button class="btn" id="yesButton" onclick="nextPage()" aria-placeholder="let's">
+        Let's Fix a Date
+      <p id="input" style="display: none;">Date bta de ab msg krke knsi select kri</p>
+      </button>
+    </div>
+    <script>
+      function nextPage(){
+        document.getElementById("input").style = "display:block;"
+      }
+    </script>
+  </body>
+</html>
